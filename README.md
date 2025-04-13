@@ -9,7 +9,7 @@
 
 1. **Клонируйте репозиторий:**
    ```bash
-   git clone https://github.com/ваш_пользователь/fastapi-learning.git
+   git clone https://github.com/SBRDIGITAL/fastapi_sqlalchemy_postgresql_ssl.git
    cd fastapi-learning
    ```
 
