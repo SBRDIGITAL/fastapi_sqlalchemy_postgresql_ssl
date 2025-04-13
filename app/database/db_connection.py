@@ -6,7 +6,7 @@ from os.path import exists, join
 from sqlalchemy.ext.asyncio import create_async_engine
 from sqlalchemy.ext.asyncio import async_sessionmaker, AsyncSession, AsyncEngine
 
-from config_reader import env_config
+from config.config_reader import env_config
 
 
 
@@ -125,7 +125,7 @@ session_echo = False
 session_echo = True  # Для логов в консоль 
 
 # Директория сертификатов
-certs_dir = join('certs')
+certs_dir = join('app', 'certs')
 
 # Пример использования
 db_session = DbSession(  # Объект сессии базы данных

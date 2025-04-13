@@ -1,10 +1,15 @@
+import os, sys
 from typing import Optional
+
 from fastapi import FastAPI
 
 from sqlalchemy import text
 from sqlalchemy.ext.asyncio import AsyncSession
 
-from db_connection import DbSession, db_session
+# Добавляем путь к корневой папке проекта
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__))))
+
+from database.db_connection import DbSession, db_session
 
 
 
