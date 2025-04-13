@@ -1,0 +1,15 @@
+[project]
+name = "fastapi-sqlalchemy-postgresql-ssl"
+version = "0.1.0"
+description = "Приложение на FastAPI для изучения и демонстрации асинхронного взаимодействия с базой данных PostgreSQL."
+readme = "README.md"
+requires-python = "==3.12.9"
+dependencies = [
+    "aiofiles>=24.1.0",
+    "aiohttp>=3.11.16",
+    "asyncpg>=0.30.0",
+    "fastapi[standart]>=0.115.12",
+    "pydantic-settings>=2.8.1",
+    "sqlalchemy>=2.0.40",
+    "uvicorn>=0.34.0",
+]
