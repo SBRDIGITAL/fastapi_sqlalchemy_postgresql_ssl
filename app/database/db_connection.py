@@ -17,7 +17,6 @@ class DbSession:
     ### Этот класс использует `SQLAlchemy` для создания асинхронного движка и сессии, \
     позволяя взаимодействовать с базой данных в асинхронном режиме.
     """
-    
     def __init__(self, *,
         url: str = env_config.DATABASE_URL_asyncpg,
         echo: bool = False,
