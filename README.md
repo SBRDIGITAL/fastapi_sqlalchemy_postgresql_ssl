@@ -42,7 +42,7 @@ DATABASE_URL_asyncpg_sslmode = "postgresql+asyncpg://user:password@localhost/dbn
 ## Запуск приложения
 Для запуска приложения используйте Uvicorn:
 ```bash
-uvicorn main:app --reload
+uvicorn app.main:app --reload
 ```
 Замените `main` на имя вашего файла, если оно отличается.
 
